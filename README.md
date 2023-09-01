@@ -26,9 +26,9 @@
 1. Initial EDA shows that most of the obvious features did not hold enough predictive power to create a reasonable model.
 
 2. Derived a few non-obvious features
-  - A flag for orders that have multiple of the same product, assuming that this usually indicates a return will happen.
-  - The probability that a product will be returned based on the training data.  Mapped this to the test data.
-  - Derived date features from the order data, assuming that most returns happen on product purchased around holidays or weekends.
+   - A flag for orders that have multiple of the same product, assuming that this usually indicates a return will happen.
+   - The probability that a product will be returned based on the training data.  Mapped this to the test data.
+   - Derived date features from the order data, assuming that most returns happen on product purchased around holidays or weekends.
 
 3. Used MLFlow for experiment tracking and model selection
 
